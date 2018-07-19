@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>I LOVE YOU</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<style type="text/css">
+		body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{
+			margin: 0;padding: 0;
+		}
+		@media screen and (max-device-width: 1080px){
+			.love{
+				width: 80%;
+				height: 100px;
+				background: pink;
+				border-top-left-radius: 50px;
+				border-bottom-right-radius: 50px;
+				margin: auto;
+				margin-top: 100px;
+				text-align: center;
+				line-height: 100px;
+			}
+			.btn{
+				width: 40%;
+				height: 50px;
+				background: #B0E2FF;
+				border-top-left-radius: 25px;
+				border-bottom-right-radius: 25px;
+				margin-top: 100px;
+				text-align: center;
+				font-size: 13px;
+				line-height: 50px;
+				float: left;
+
+			}
+			.wicen{
+				margin: auto;
+				width: 80%;
+			}
+			.btn-false{
+				width: 20%;
+				height: 50px;
+				margin-top: 100px;
+				float: left;
+			}
+		}
+		@media screen and (max-device-width: 1920px) and (min-device-width: 1080px){
+			.love{
+				width: 30%;
+				height: 100px;
+				background: pink;
+				border-top-left-radius: 50px;
+				border-bottom-right-radius: 50px;
+				margin: auto;
+				margin-top: 100px;
+				text-align: center;
+				line-height: 100px;
+			}
+			.btn{
+				width: 40%;
+				height: 50px;
+				background: #B0E2FF;
+				border-top-left-radius: 25px;
+				border-bottom-right-radius: 25px;
+				margin-top: 100px;
+				text-align: center;
+				line-height: 50px;
+				float: left;
+
+			}
+			.wicen{
+				margin: auto;
+				width: 30%;
+			}
+			.btn-false{
+				width: 20%;
+				height: 50px;
+				margin-top: 100px;
+				float: left;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="all">
+		<div class="love">赵嘉顺,我爱你，你爱我吗？</div>
+		<div class="wicen">
+			<div class="btn" onclick="yes()">是的，我也爱你</div>
+			<div class="btn-false"></div>
+			<div class="btn" onclick="no()">不，我不爱你</div>
+		</div>
+	</div>
+	<audio src="http://fs.w.kugou.com/201807190117/de13c80faecdaf8ce94d86701bb50cee/G013/M01/15/1B/rYYBAFUJpZyAZvKrAFrB-y-aVpo017.mp3" autoplay="autoplay" hidden="hidden" loop="loop"></audio>
+	<script type="text/javascript">
+		var i = 1;
+		function yes() {
+			alert("我会永远爱你，保护你，宠爱你")
+			window.location.href="LOVE.html";
+		}
+		function no() {
+			switch(i){
+                case 1:
+                    alert("工资不用上交");
+                    break;
+                case 2:
+                    alert("家务全包");
+                    break;
+                case 3:
+                    alert("房产证写你的名字");
+                    break;
+				case 4:
+                    alert("可以玩游戏");
+                    break;
+                case 5:
+                    alert("我会游泳救你妈");
+                    break;
+                case 6:
+                    alert("给你当牛");
+                    break;
+                case 7:
+                    alert("给你做马");
+                    break;
+                case 8:
+                    alert("永远保护你");
+                    break;
+                case 9:
+                    alert("永远宠爱你");
+                    break;
+                case 10:
+                    alert("今生不离弃");
+                    break;
+                default:
+                	alert("答应我吧");
+                	i = 0;
+                }
+            	i++;
+		}
+	</script>
+</body>
+</html>
